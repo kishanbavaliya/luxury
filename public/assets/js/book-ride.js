@@ -243,6 +243,7 @@ var baseUrl ="http://tagxi-super-bidding-dispatcher.ondemandappz.com";
                 } 
                 $(document).on("submit","#dispatcher-booking",function(e){
                     e.preventDefault();
+                    console.log('123');debugger;
                     // createTripRequest($("#booking_type").val());
                     var good_id = $("#goods-type").val(); 
 

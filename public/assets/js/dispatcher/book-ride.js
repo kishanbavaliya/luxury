@@ -275,6 +275,7 @@ var baseUrl = appUrl;
                 } 
                 $(document).on("submit","#dispatcher-booking",function(e){
                     e.preventDefault();
+                    console.log('234');
                     // createTripRequest($("#booking_type").val());
                     var good_id = $("#goods_type").val(); 
 
